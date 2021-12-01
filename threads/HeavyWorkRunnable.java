@@ -1,3 +1,5 @@
+package threads;
+
 public class HeavyWorkRunnable implements Runnable {
 
     @Override
