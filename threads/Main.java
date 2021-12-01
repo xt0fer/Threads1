@@ -8,6 +8,7 @@ public class Main {
         t1.start();
         t2.start();
         System.out.println("Runnable Threads have been started");
+        
         Thread t3 = new MyThread("t3");
         Thread t4 = new MyThread("t4");
         System.out.println("Starting MyThreads");
